@@ -7,19 +7,16 @@ export default function Header() {
       <h1 className="text-2xl w-1/3 text-center font-semibold">Sight Boost</h1>
 
       <ul className='flex justify-around w-1/2 my-auto'>
-        <Link href="/">
+        <Link href="/" className="hover:border-b border-white">
           <li className="">Home</li>
         </Link>
-        <Link href="/services">
+        <Link href="/services" className="hover:border-b border-white">
           <li className="">Services</li>
         </Link>
-        <Link href="/gallery">
+        <Link href="/gallery" className="hover:border-b border-white">
           <li className="">Gallery</li>
         </Link>
-        <Link href="/contact">
-          <li className="">Contact</li>
-        </Link>
-        <Link href="/about">
+        <Link href="/about" className="hover:border-b border-white">
           <li className="">About</li>
         </Link>
       </ul>

@@ -11,7 +11,7 @@ export default function Social() {
       <h1 className="text-5xl font-semibold text-teal-900 text-center">Follow us on</h1>
 
       <div className="flex justify-center gap-8 mt-12 w-5/6 mx-auto">
-        <a href='https://facebook.com' className="relative size-24 flex flex-col justify-center">
+        <a href='https://facebook.com' className="relative size-24 flex flex-col justify-center rounded-full">
           <Image src={facebook} fill alt="icon" />
         </a>
         <a href='https://twitter.com' className="relative size-24 flex flex-col justify-center">

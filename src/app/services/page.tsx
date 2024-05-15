@@ -162,9 +162,9 @@ export default function page() {
                         <p className="my-2">Disposable Eye Drapes</p>
                         <p className="my-2">Amethocaine Drops</p>
                         <p className="my-2">Phenylephrine/Tropicamide Drops</p>
+                        <p className="my-2">Cyclopentolate Drops</p>
                     </div>
                     <div className="text-black w-1/5">
-                        <p className="my-2">Cyclopentolate Drops</p>
                         <p className="my-2">Povidone</p>
                         <p className="my-2">Methylated Spirit</p>
                         <p className="my-2">Cotton Gauze</p>
@@ -221,7 +221,7 @@ export default function page() {
             <div className="my-24 relative h-full">
                 <div className="p-8 text-white  bg-teal-900/70 backdrop-blur-md rounded-lg flex justify-between gap-2">
                     <div className="w-[55%]">
-                        <h1 className='text-center text-4xl text-white mb-4 font-thin'>EYE CARE EQUIOMENTS</h1>
+                        <h1 className='text-center text-4xl text-white mb-4 font-thin'>EYE CARE EQUIPMENTS</h1>
                         <div className=" flex justify-around">
                             <div className="">
                                 <p className="my-2">Brand new & Fairly used</p>
