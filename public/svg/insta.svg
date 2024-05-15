@@ -3,18 +3,18 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 333.4 333.4" style="enable-background:new 0 0 333.4 333.4;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#486EB4;stroke-width:15;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#B54185;stroke-width:15;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#1AAFDE;stroke-width:15;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#157CBA;stroke-width:15;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#2DAF4B;stroke-width:15;stroke-miterlimit:10;}
-	.st5{fill:none;stroke:#EF4D44;stroke-width:15;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#EB4943;stroke-width:15;stroke-miterlimit:10;}
-	.st7{fill:none;stroke:#20B6E9;stroke-width:15;stroke-miterlimit:10;}
-	.st8{fill:none;stroke:#F4E028;stroke-width:15;stroke-miterlimit:10;}
-	.st9{fill:none;stroke:#33445A;stroke-width:15;stroke-miterlimit:10;}
-	.st10{fill:none;stroke:#2790CF;stroke-width:15;stroke-miterlimit:10;}
-	.st11{fill:none;stroke:#39AAE0;stroke-width:15;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#486EB4;strokeWidth:15;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#B54185;strokeWidth:15;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#1AAFDE;strokeWidth:15;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#157CBA;strokeWidth:15;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#2DAF4B;strokeWidth:15;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#EF4D44;strokeWidth:15;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#EB4943;strokeWidth:15;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#20B6E9;strokeWidth:15;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#F4E028;strokeWidth:15;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#33445A;strokeWidth:15;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#2790CF;strokeWidth:15;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#39AAE0;strokeWidth:15;stroke-miterlimit:10;}
 	.st12{fill:#FFFFFF;}
 	.st13{fill:#486EB4;}
 	.st14{fill:#B54185;}
@@ -28,18 +28,18 @@
 	.st22{fill:#F4E028;}
 	.st23{fill:#2790CF;}
 	.st24{fill:#39AAE0;}
-	.st25{fill:none;stroke:url(#SVGID_1_);stroke-width:15;stroke-miterlimit:10;}
-	.st26{fill:none;stroke:url(#SVGID_2_);stroke-width:15;stroke-miterlimit:10;}
-	.st27{fill:none;stroke:url(#SVGID_3_);stroke-width:15;stroke-miterlimit:10;}
-	.st28{fill:none;stroke:url(#SVGID_4_);stroke-width:15;stroke-miterlimit:10;}
-	.st29{fill:none;stroke:url(#SVGID_5_);stroke-width:15;stroke-miterlimit:10;}
-	.st30{fill:none;stroke:url(#SVGID_6_);stroke-width:15;stroke-miterlimit:10;}
-	.st31{fill:none;stroke:url(#SVGID_7_);stroke-width:15;stroke-miterlimit:10;}
-	.st32{fill:none;stroke:url(#SVGID_8_);stroke-width:15;stroke-miterlimit:10;}
-	.st33{fill:none;stroke:url(#SVGID_9_);stroke-width:15;stroke-miterlimit:10;}
-	.st34{fill:none;stroke:url(#SVGID_10_);stroke-width:15;stroke-miterlimit:10;}
-	.st35{fill:none;stroke:url(#SVGID_11_);stroke-width:15;stroke-miterlimit:10;}
-	.st36{fill:none;stroke:url(#SVGID_12_);stroke-width:15;stroke-miterlimit:10;}
+	.st25{fill:none;stroke:url(#SVGID_1_);strokeWidth:15;stroke-miterlimit:10;}
+	.st26{fill:none;stroke:url(#SVGID_2_);strokeWidth:15;stroke-miterlimit:10;}
+	.st27{fill:none;stroke:url(#SVGID_3_);strokeWidth:15;stroke-miterlimit:10;}
+	.st28{fill:none;stroke:url(#SVGID_4_);strokeWidth:15;stroke-miterlimit:10;}
+	.st29{fill:none;stroke:url(#SVGID_5_);strokeWidth:15;stroke-miterlimit:10;}
+	.st30{fill:none;stroke:url(#SVGID_6_);strokeWidth:15;stroke-miterlimit:10;}
+	.st31{fill:none;stroke:url(#SVGID_7_);strokeWidth:15;stroke-miterlimit:10;}
+	.st32{fill:none;stroke:url(#SVGID_8_);strokeWidth:15;stroke-miterlimit:10;}
+	.st33{fill:none;stroke:url(#SVGID_9_);strokeWidth:15;stroke-miterlimit:10;}
+	.st34{fill:none;stroke:url(#SVGID_10_);strokeWidth:15;stroke-miterlimit:10;}
+	.st35{fill:none;stroke:url(#SVGID_11_);strokeWidth:15;stroke-miterlimit:10;}
+	.st36{fill:none;stroke:url(#SVGID_12_);strokeWidth:15;stroke-miterlimit:10;}
 	.st37{fill:url(#SVGID_13_);}
 	.st38{fill:url(#SVGID_14_);}
 	.st39{fill:url(#XMLID_14_);}
