@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import user from '../../../public/svg/User.png'
 
 export default function Testimonials() {
     return (
@@ -14,8 +15,8 @@ export default function Testimonials() {
 
                 </div>
                 <div className="mt-10 w-2/3">
-                    <div className="size-32 relative mx-auto mb-4">
-                        <Image src="/sailor.png" fill alt='image' className='object-cover rounded-lg' />
+                    <div className="size-44 relative mx-auto mb-4 border-2 border-teal-900 rounded-full">
+                        <Image src={user} fill alt='image' className='object-contain p-6 rounded-lg' />
                     </div>
                     
                 </div>
