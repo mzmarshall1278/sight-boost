@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
+import user from '../../../public/svg/User.png'
 
-export default function A() {
+export default function About() {
     return (
         <div className='mx-auto w-5/6 pb-12'>
             <h1 className='text-center text-teal-900 mb-12 text-6xl font-semibold'>About</h1>
@@ -48,17 +49,16 @@ export default function A() {
 
             <h1 className="text-4xl font-thin text-teal-900 mt-24">Our Members</h1>
 
-                <div className="grid grid-cols-4 gap-3 mt-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-8">
                     <div className="col-span-1">
                         <div className="w-full h-56 relative rounded-t-2xl bg-gradient-to-t from-black to-teal-900">
-                            <Image src="/doc.png" alt="image" fill className='object-contain' />
+                            <Image src={user} alt="image" fill className='object-contain' />
                         </div>
                         <div className="bg-black text-white p-4 rounded-b-2xl">
                             <h1 className=' text-xl'>Dr Jade Butera</h1>
                             <h1 className='font-light text-sm'>Senior Consultant</h1>
                         </div>
                     </div>
-
                     
                 </div>
 
