@@ -32,16 +32,16 @@ export default function Header() {
 
       <ul className="hidden sm:flex justify-around w-[55%] sm:w-1/2 my-auto">
         <Link href="/" className="hover:border-b border-white">
-          <li className="">Home</li>
+          <p className="">Home</p>
         </Link>
         <Link href="/services" className="hover:border-b border-white">
-          <li className="">Services</li>
+          <p className="">Services</p>
         </Link>
         <Link href="/gallery" className="hover:border-b border-white">
-          <li className="">Gallery</li>
+          <p className="">Gallery</p>
         </Link>
         <Link href="/about" className="hover:border-b border-white">
-          <li className="">About</li>
+          <p className="">About</p>
         </Link>
       </ul>
       {isOpen && (<>
