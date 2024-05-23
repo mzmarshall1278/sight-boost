@@ -8,7 +8,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="flex justify-between bg-teal-900 fixed top-0 w-full z-40 py-4 text-white px-2">
+    <nav className="flex justify-between bg-teal-900 fixed top-0 w-full z-50 py-4 text-white px-2">
       <h1 className="text-2xl w-1/2 sm:w-1/3 text-center font-semibold">
         Sight Boost
       </h1>
