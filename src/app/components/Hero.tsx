@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
         <div className="h-72 lg:h-96 lg:mt-6 mx-auto w-11/12 lg:w-3/5 relative rounded-full">
           <Image
-            src="https://res.cloudinary.com/dwykg95nb/image/upload/v1716304567/WhatsApp_Image_2024-05-21_at_1.04.59_PM_xo9q2b.jpg"
+            src="https://ik.imagekit.io/23obkah80/IMG_3995.JPG?updatedAt=1716323189938"
             alt="hero"
             fill
             className="rounded-l-full object-cover"

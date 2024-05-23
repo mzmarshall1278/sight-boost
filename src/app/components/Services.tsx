@@ -8,7 +8,7 @@ export default function Services() {
             <h1 className="text-5xl text-teal-800 font-semibold text-center">Our Services</h1>
             <div className="flex gap-5 mt-8 justify-between">
 
-                <ul className='text-white gap-3 text-xl justify-around text-center grid grid-cols-2 md:grid-cols-3 mx-auto'>
+                <ul className='text-white gap-3 text-xl justify-around text-center sm:grid sm:grid-cols-2 md:grid-cols-3 mx-auto'>
                     <li className=' col-span-1 rounded-lg h-24 md:h-28 w-44 md:w-56 flex flex-col justify-center py-2 px-4 bg-gradient-to-br from-teal-900 to-black mb-2  '>CLINICS</li>
                     <li className=' col-span-1 rounded-lg h-24 md:h-28 w-44 md:w-56 flex flex-col justify-center py-2 px-4 bg-gradient-to-b from-teal-900 to-black mb-2 '>INVESTIGATIONS</li>
                     <li className=' col-span-1 rounded-lg h-24 md:h-28 w-44 md:w-56 flex flex-col justify-center py-2 px-4 bg-gradient-to-bl from-teal-900 to-black mb-2 '>SCREENING PROGRAMS</li>

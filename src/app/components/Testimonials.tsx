@@ -31,7 +31,7 @@ export default function Testimonials() {
             </div>
             <div className="text-center w-4/5 md:w-3/5 mx-auto text-teal-900">
                         <p className="">I was struggling with itchy eyes and poor vision. I could barely sail my ship. But after I my Operation the itching stopped and the vision inproved.</p>
-                        <p className='text-right font-semibold mt-2'>-Jack Sparrow</p>
+                        <p className='text-right font-semibold mt-2'>-Mustapha Bello</p>
                     </div>
         </section>
     )

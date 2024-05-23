@@ -31,6 +31,12 @@
   @apply grid grid-cols-5 gap-3;
 }
 
+.glass {
+  background: #285243;
+  /* box-shadow: 0 4px 30px rgba(255, 16, 16, 0.1); */
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
 
 
 .glass-container::before {
