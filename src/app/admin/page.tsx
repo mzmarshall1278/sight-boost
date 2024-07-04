@@ -4,14 +4,14 @@ import React from 'react'
 import Login from '../components/Admin/Login'
 import { useSession } from 'next-auth/react';
 
-const page = () => {
+const Admin = () => {
 
   const { data: session } = useSession();
 
   return (
     <div>
       {session ?(
-        <div>User is logged in</div>
+        <h1>Welcome, {session?.user?.name}</h1>
       ):(
         <Login/>
       )}
@@ -19,4 +19,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Admin
