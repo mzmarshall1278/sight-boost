@@ -11,7 +11,7 @@ const Admin = () => {
 
   return (
     <div>
-      {session ? (
+      {session ?(
         <>
           <h1 className="text-center text-4xl text-teal-900 font-semibold mt-12">
             Welcome, {session?.user?.name}
@@ -28,8 +28,8 @@ const Admin = () => {
           </Link>
           </div>
         </>
-      ) : (
-        <Login />
+      ):(
+        <Login/>
       )}
     </div>
   );

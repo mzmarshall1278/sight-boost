@@ -8,7 +8,7 @@ export const connectToDB = async (): Promise<void> => {
 
   try {
     await mongoose.connect(process.env.MONGODB_URI as string, {
-      dbName: 'ziype',
+      dbName: 'hudsuller',
       useNewUrlParser: true,
       useUnifiedTopology: true,
     } as mongoose.ConnectOptions);
