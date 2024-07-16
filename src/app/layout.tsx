@@ -22,7 +22,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`font-sans min-h-screen bg-gray-200 relative flex flex-col`}>
+      <body className={`font-sans min-h-screen bg-gray-200 relative flex flex-col justify-between`}>
         <Provider session={session}>
           <Header />
           <main className="mt-24">
