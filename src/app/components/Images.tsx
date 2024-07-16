@@ -28,10 +28,10 @@ function openImage (url: string) {
       const data = await response.json();
       setImages(data);
     } else {
-      console.error('Failed to fetch courses:', response.statusText);
+      throw new Error(response.statusText)
     }
     } catch (error) {
-        console.error('Error fetching courses:', error);
+        console.error('Error fetching Image:', error);
     } finally {
         setIsLoading(false)
     }
@@ -53,7 +53,7 @@ function openImage (url: string) {
   
 
   return (
-    <div className="  bg-gradient-to-br from-teal-900 via-black to-teal-900 -mt-12 pt-8">
+    <div className="  bg-gradient-to-br from-teal-900 via-black to-teal-900 -mt-12 pt-8 min-h-screen">
       { isOpen && <ImageLoader url={currentImage} close={()=> setIsOpen(false)} />}
 
       <div className="mx-auto w-5/6 pb-12">
@@ -63,7 +63,9 @@ function openImage (url: string) {
 
         <section className="mb-24">
           {isLoading ? (
-            <div>Loading.....</div>
+            <div className="flex justify-center w-screen h-screen left-0 -top-20 items-center py-52 mt-16 fixed z-10 opacity-100">
+            <div className="animate-spin z-20 opacity-100 rounded-full mt-8 h-24 w-24 border-b-4 border-white " />
+        </div>
           ) : (
             Object.keys(groupedImages).map((category) => (
               <div key={category}>
