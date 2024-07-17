@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="mb-3">
           <h1 className="text-2xl font-semibold text-white">Contact</h1>
           <p className='my-2 text-white '><a href='mailto:sightboost@gmail.com' className="">Send us a mail</a></p>
-          <p className="my-2 text-white "><a href='tel:09095343120' className="">Call 1</a></p>
-          <p className="my-2 text-white "><a href='tel:08021014371' className="">Call 2</a></p>
+          <p className="my-2 text-white "><a href='tel:09095343120' className="">Call 09095343120</a></p>
+          <p className="my-2 text-white "><a href='tel:08021014371' className="">Call 08021014371</a></p>
           <p className='my-2 text-white text-wrap'><a href="https://maps.app.goo.gl/mzV1ndFZjcoomfrn9">Find us at: No. 227 Naibawa Gabas, Dan Hassan Street, off Zaria road, Kano, Kano State.</a></p>
         </div>
 
