@@ -11,7 +11,7 @@ export default function About() {
                 <div className="w-5/6">
                     <h1 className="text-4xl font-thin text-teal-900">About Us</h1>
                     <p className="mt-4 text-lg font-light">
-                        Sight Boost Nigeria Initiative started a couple of years ago as a team of registered indigenous, practicing eye care professionals of different cadres. The team metamorphosed in recent times into a registered Non-governmental Organization (NGO) that specializes in eye care. The objective of the organization are:
+                        Sight Boost Nigeria Initiative started 9 years ago as a team of registered indigenous, practicing eye care professionals of different cadres. The team metamorphosed in recent times into a registered Non-governmental Organization (NGO) that specializes in eye care. The objective of the organization are:
                     </p>
                     <ul className='mt-8 text-lg font-light'>
                         <li className="list-[circle] my-2">To reduce the burden of avoidable blindness in our society by reaching the unreached populace rendering organized mobile eye care service.</li>
