@@ -50,15 +50,19 @@ export default function About() {
             <h1 className="text-4xl font-thin text-teal-900 mt-24">Our Members</h1>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-8">
-                    <div className="col-span-1">
-                        <div className="w-full h-56 relative rounded-t-2xl bg-gradient-to-t from-black to-teal-900">
-                            <Image src={user} alt="image" fill className='object-contain' />
-                        </div>
-                        <div className="bg-black text-white p-4 rounded-b-2xl">
-                            <h1 className=' text-xl'>Dr Jade Butera</h1>
-                            <h1 className='font-light text-sm'>Senior Consultant</h1>
-                        </div>
-                    </div>
+                    { [1].map((item ,index)=> {
+                        return (
+                            <div key={index} className="col-span-1">
+                                <div className="w-full h-56 relative rounded-t-2xl bg-gradient-to-t from-black to-teal-900">
+                                    <Image src={user} alt="image" fill className='object-contain' />
+                                </div>
+                                <div className="bg-black text-white p-4 rounded-b-2xl">
+                                    <h1 className=' text-xl'>Dr Anas</h1>
+                                    <h1 className='font-light text-sm'>Senior Consultant</h1>
+                                </div>
+                            </div>
+                        )
+                    }) }
                     
                 </div>
 
