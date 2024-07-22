@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function Hero() {
 
-  const images: string[] = ["https://ik.imagekit.io/23obkah80/IMG_3995.JPG?updatedAt=1716323189938", ""]
+  const images: string[] = ["https://ik.imagekit.io/23obkah80/IMG_3995.JPG?updatedAt=1716323189938", "http://ik.imagekit.io/23obkah80/IMG_4005.JPG?updatedAt=3D1716323188898"]
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
