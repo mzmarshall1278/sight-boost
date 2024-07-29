@@ -4,6 +4,7 @@ import React from "react";
 import Login from "../components/Admin/Login";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
+import Form from "../components/Admin/Form";
 
 const Admin = () => {
   const { data: session } = useSession();
@@ -19,14 +20,7 @@ const Admin = () => {
           <p className="text-center mt-4 text-lg text-teal-900">
             You are authorized.
           </p>
-          <p className=" text-center mt-2">
-            click this button to upload an image
-          </p>
-          <div className="w-full flex justify-center mt-8">
-          <Link href='/admin/imageUpload' className="px-5 py-2 text-lg bg-teal-900 rounded-full text-white mx-auto w-fit">
-            Upload
-          </Link>
-          </div>
+          <Form />
         </>
       ):(
         <Login/>
